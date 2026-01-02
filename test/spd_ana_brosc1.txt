@@ -1,0 +1,10 @@
+-spdtype  brownian
+-nosc     2000
+-reorg    0.0
+-w0       2.18
+-w_cutoff 0.1
+-w_max    15.0
+-temp     1.0
+-coupl
+1.0
+0.0 -1.0

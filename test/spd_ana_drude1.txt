@@ -1,0 +1,9 @@
+-spdtype  drude
+-nosc     2000
+-reorg    0.05
+-w_cutoff 1.0
+-w_max    30.0
+-temp     1.0
+-coupl
+1.0
+0.0 -1.0

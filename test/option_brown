@@ -1,0 +1,37 @@
+$jobtype  fret_pop
+$unit     atomic
+
+$dt_lns     0.01
+$dtout_lns  0.1
+$T_lns      1000.0
+
+$dt_prop    0.01
+$dtout_prop 0.2
+$T_prop     300.0
+
+$nsys       2
+$initexc    1
+$initcond   site
+
+$Hsys
+  1.0
+  0.25  -1.0
+
+$nspd_ana   2
+$nspd_num   0
+
+$spd_ana_files
+spd_ana_brosc1.txt
+spd_ana_drude2.txt
+
+$spd_num_files
+
+$nosc_tr    0
+$osc_tr
+1  600   1.0e-10
+1  800   1.0e-10
+1  1000  1.0e-10
+
+$ntraj       100
+$freq_split  .01
+$pref_split  0.99
